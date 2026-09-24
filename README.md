@@ -2,6 +2,10 @@
 
 A full-stack, responsive Product Management Admin Dashboard built with **Next.js (App Router)**, **React**, **Tailwind CSS**, and **Lucide Icons**. This dashboard provides real-time search, category filtering, server-side dynamic pagination, and full CRUD operations for managing product inventories.
 
+Check Live:
+
+https://product-admin-dasboard.netlify.app/login
+
 ---
 
 ## 🚀 Features
