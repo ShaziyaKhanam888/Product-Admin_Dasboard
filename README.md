@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # Product Management Admin Dashboard
 
-## Getting Started
+A full-stack, responsive Product Management Admin Dashboard built with **Next.js (App Router)**, **React**, **Tailwind CSS**, and **Lucide Icons**. This dashboard provides real-time search, category filtering, server-side dynamic pagination, and full CRUD operations for managing product inventories.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Dynamic Data Table & Card Layout:** Responsive UI displaying products in a table view on desktop and card layout on mobile.
+- **Server-Side Pagination & Limits:** Seamlessly navigate across pages and change items per page (10, 20, 50).
+- **Search & Debounce:** Fast real-time search optimized with a 400ms debounce hook to minimize API overload.
+- **Multi-Filter & Sorting:** Filter products by category and sort by field and ascending/descending order.
+- **Full CRUD Operations:** Modals for adding new products, editing existing entries, and confirming deletions.
+- **Authentication Guard:** Protected route pattern verifying authentication tokens (`js-cookie`).
+- **Resilient Network Layer:** Integrated `AbortController` to cancel stale/outdated pending network requests during fast user typing or tab switching.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Framework:** Next.js 14+ (App Router)
+- **Language:** JavaScript (ES6+)
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **State & Utils:** React Hooks (`useState`, `useEffect`, `useCallback`, `useRef`), `js-cookie`, custom `useDebounce` hook
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Getting Started Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+Make sure you have Node.js (v18.x or later) and npm installed.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/ShaziyaKhanam888/Product-Admin_Dasboard.git](https://github.com/ShaziyaKhanam888/Product-Admin_Dasboard.git)
+   cd Product-Admin_Dasboard
